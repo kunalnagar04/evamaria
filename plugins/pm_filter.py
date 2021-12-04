@@ -436,7 +436,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/moviezzprime')
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/movieshouse8')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
@@ -466,7 +466,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/moviezzprime'),
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/movieshouse8'),
             InlineKeyboardButton('♥️ Source', callback_data='source')
             ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
@@ -726,7 +726,7 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist)) # removing duplicates
     if not movielist:
-        k = await msg.reply("𝙋𝙡𝙚𝙖𝙨𝙚 𝙋𝙧𝙤𝙫𝙞𝙙𝙚 𝙏𝙝𝙚 𝘾𝙤𝙧𝙧𝙚𝙘𝙩 𝙈𝙤𝙫𝙞𝙚 𝙉𝙖𝙢𝙚..🥱\n\n⭕ᴅᴏɴᴛ ᴀꜱᴋ ᴛʜᴇᴀᴛʀᴇ ᴩʀɪɴᴛꜱ\n⭕ʀᴇqᴜᴇꜱᴛ ʀᴇʟᴇᴀꜱᴇᴅ ᴍᴏᴠɪᴇꜱ ᴏɴʟy\n⭕ꜱᴇᴀʀᴄʜ ɢᴏᴏɢʟᴇ ꜰᴏʀ ᴄᴏʀʀᴇᴄᴛ ꜱᴩᴇʟʟɪɴɢ🔍")
+        k = await msg.reply("ʜᴇʏ, ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴛʜᴇ ᴍᴏᴠɪᴇ ʏᴏᴜ'ʀᴇ ʟᴏᴏᴋɪɴɢ ꜰᴏʀ 😒😒\nᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ɪɴ ɢᴏᴏɢʟᴇ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ. ♻️\nɪꜰ ʏᴏᴜ ᴅɪᴅɴ'ᴛ ꜰɪɴᴅ ᴛʜᴀᴛ ʏᴏᴜʀ ǫᴜᴇʀʏ ᴛʜᴇɴ ɪᴛ ɪs ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ​ 😁")
         await asyncio.sleep(8)
         await k.delete()
         return
@@ -738,7 +738,7 @@ async def advantage_spell_chok(msg):
                 )
             ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply("𝙋𝙡𝙚𝙖𝙨𝙚 𝙋𝙧𝙤𝙫𝙞𝙙𝙚 𝙏𝙝𝙚 𝘾𝙤𝙧𝙧𝙚𝙘𝙩 𝙈𝙤𝙫𝙞𝙚 𝙉𝙖𝙢𝙚..🥱\n\n⭕ᴅᴏɴᴛ ᴀꜱᴋ ᴛʜᴇᴀᴛʀᴇ ᴩʀɪɴᴛꜱ\n⭕ʀᴇqᴜᴇꜱᴛ ʀᴇʟᴇᴀꜱᴇᴅ ᴍᴏᴠɪᴇꜱ ᴏɴʟy\n⭕ꜱᴇᴀʀᴄʜ ɢᴏᴏɢʟᴇ ꜰᴏʀ ᴄᴏʀʀᴇᴄᴛ ꜱᴩᴇʟʟɪɴɢ🔍") 
+    await msg.reply("ʜᴇʏ, ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴛʜᴇ ᴍᴏᴠɪᴇ ʏᴏᴜ'ʀᴇ ʟᴏᴏᴋɪɴɢ ꜰᴏʀ 😒😒\nᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ɪɴ ɢᴏᴏɢʟᴇ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ. ♻️\nɪꜰ ʏᴏᴜ ᴅɪᴅɴ'ᴛ ꜰɪɴᴅ ᴛʜᴀᴛ ʏᴏᴜʀ ǫᴜᴇʀʏ ᴛʜᴇɴ ɪᴛ ɪs ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ​ 😁") 
     
 
 
