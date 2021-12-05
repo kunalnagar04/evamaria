@@ -14,17 +14,17 @@ Nᴏᴛᴇ 🎓
 Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Movieshouse8 🍷</b>"""
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ: {}
 
-✯ Cʀᴇᴀᴛᴏʀ: href=https://t.me/kunal_nagar_01>Kunal࿐</a>
+<b>✯ Cʀᴇᴀᴛᴏʀ</b>: <a href=https://t.me/kunal_nagar_01>Kunal࿐</a>
 
-✯ Mʏ Gʀᴏᴜᴘ: href=https://t.me/MH_request>Mʜ ʀᴇǫᴜᴇsT</a>
+<b>✯ Mʏ Gʀᴏᴜᴘ</b>: <a href=https://t.me/MH_request>Mʜ ʀᴇǫᴜᴇsT</a>
 
 ✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: ᴠ2.0 [Sᴛᴀʙʟᴇ]</b>"""
-    SOURCE_TXT = """<b>Nᴏᴛᴇ 💨
+    SOURCE_TXT = """Nᴏᴛᴇ 💨
 • Tʜɪs Is A Oᴘᴇɴ Sᴏᴜʀᴄᴇ Bᴏᴛ.
 
-• Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ: href=https://t.me/MH_request>Mʜ ʀᴇǫᴜᴇsT</a>
+• Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ: <a href=https://t.me/MH_request>Mʜ ʀᴇǫᴜᴇsT</a>
 
-• Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ: href=https://t.me/Movieshouse8>Movies House 8</a> 🍷</b>"""
+• Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ: <a href=https://t.me/Movieshouse8>Mᴏᴠɪᴇs Hᴏᴜsᴇ 8​</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and Movieshouse8 Bot will respond whenever a keyword is found the message
