@@ -419,7 +419,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Dᴇᴠᴇʟᴏᴘᴇʀ​', url='https://t.me/kunal_nagar_01')
             ],[
-            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Cʜᴀɴɴᴇʟ', url='https://t.me/mh_moviess'),
+            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Cʜᴀɴɴᴇʟ', url='https://t.me/movieshouse8'),
             InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/mh_request')
             ],[
             InlineKeyboardButton('sᴇᴀʀᴄʜ​', switch_inline_query_current_chat='')
