@@ -417,15 +417,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐌𝐚𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/movieshouse8')
+            InlineKeyboardButton('Dᴇᴠᴇʟᴏᴘᴇʀ​', url='https://t.me/kunal_nagar_01')
             ],[
-            InlineKeyboardButton('🧊 𝐌𝐨𝐯𝐢𝐞𝐬', url='https://t.me/mh_moviess'),
-            InlineKeyboardButton('📢 𝐂𝐡𝐚𝐭𝐭𝐢𝐧𝐠', url='https://t.me/mh_request')
+            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Cʜᴀɴɴᴇʟ', url='https://t.me/mh_moviess'),
+            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/mh_request')
             ],[
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat='')
+            InlineKeyboardButton('sᴇᴀʀᴄʜ​', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'), 
-            InlineKeyboardButton('😊 About', callback_data='about')
+            InlineKeyboardButton('ʜᴇʟᴘ​', callback_data='help'), 
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ​', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -452,13 +452,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('📢 𝐉𝐨𝐢𝐧 𝐌𝐚𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/movieshouse8')
+            InlineKeyboardButton('Mᴏᴠɪᴇs Hᴏᴜsᴇ', url='https://t.me/movieshouse8')
             ],[
-            InlineKeyboardButton('🆘 Get Help', url='https://t.me/MH_Manager_04bot'),
-            InlineKeyboardButton('🌴 My Group', url='https://t.me/mh_request')
+            InlineKeyboardButton('ɢᴇᴛ ʜᴇʟᴘ​', url='https://t.me/MH_Manager_04bot'),
+            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/mh_request')
             ],[
-            InlineKeyboardButton('🧑‍💻 Developer', url='https://t.me/kunal_nagar_01'),
-            InlineKeyboardButton('♥️ Source', callback_data='source')
+            InlineKeyboardButton('ᴅᴇᴠᴇʟᴏᴘᴇʀ​', url='https://t.me/kunal_nagar_01'),
+            InlineKeyboardButton('sᴏᴜʀᴄᴇ​', callback_data='source')
             ],[
             InlineKeyboardButton('ʜᴏᴍᴇ​', callback_data='start')
         ]]
