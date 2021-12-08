@@ -665,7 +665,7 @@ async def auto_filter(client, msg, spoll=False):
             url = imdb['url']
         )
     else:
-        cap = f"<STRONG>Sᴇᴀʀᴄʜ Rᴇsᴜʟᴛs Fᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ</STRONG> 🍷 <STRONG>{search}</STRONG>\n\n<STRONG>Jᴏɪɴ: @Movieshouse8 😈</STRONG>."
+        cap = f"<STRONG>Sᴇᴀʀᴄʜ Rᴇsᴜʟᴛs Fᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ</STRONG> 🍷 <STRONG>"{search}"</STRONG>\n\n<STRONG>⚙️ Nᴏᴛᴇ​ :- ᴀʟʟ ᴍᴇssᴀɢᴇs ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏ-ᴅᴇʟᴇᴛᴇᴅ ᴀꜰᴛᴇʀ 2 ᴍɪɴᴜᴛᴇs ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs.​</STRONG>\n\n<STRONG>Jᴏɪɴ: @Movieshouse8 😈</STRONG>."
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
@@ -690,7 +690,7 @@ async def advantage_spell_chok(msg):
     g_s += await search_gagala(msg.text)
     gs_parsed = []
     if not g_s:
-        k = await msg.reply("<b>𝚂𝚘𝚛𝚛𝚢, 𝙽𝚘 𝙼𝚘𝚟𝚒𝚎𝚜/𝚂𝚎𝚛𝚒𝚎𝚜 𝚁𝚎𝚕𝚊𝚝𝚎𝚍 𝚝𝚘 𝚝𝚑𝚎 𝙶𝚒𝚟𝚎𝚗 𝚆𝚘𝚛𝚍 𝚆𝚊𝚜 𝙵𝚘𝚞𝚗𝚍​ 🥺</b>\n\n<b>𝙿𝚘𝚜𝚜𝚒𝚋𝚕𝚎 𝙲𝚊𝚞𝚜𝚎𝚜 : 🤔</b>\n\n<b>🔷 Not Released Yet\n🔶 Incorrect Spelling\n🔷 Not Uploaded By Owner\n\n<b>Cᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍʏ Oᴡɴᴇʀ​ 🍷</b>\n\n<b>@MH_Manager_04bot 🍷</b>")
+        k = await msg.reply("<b>𝚂𝚘𝚛𝚛𝚢, 𝙽𝚘 𝙼𝚘𝚟𝚒𝚎𝚜/𝚂𝚎𝚛𝚒𝚎𝚜 𝚁𝚎𝚕𝚊𝚝𝚎𝚍 𝚝𝚘 𝚝𝚑𝚎 𝙶𝚒𝚟𝚎𝚗 𝚆𝚘𝚛𝚍 𝚆𝚊𝚜 𝙵𝚘𝚞𝚗𝚍​ 🥺</b>\n\n<b>𝙿𝚘𝚜𝚜𝚒𝚋𝚕𝚎 𝙲𝚊𝚞𝚜𝚎𝚜 : 🤔</b>\n\n<b>🔷 Not Released Yet</b>\n<b>🔶 Incorrect Spelling</b>\n<b>🔷 Not Uploaded By Owner</b>\n\n<b>Cᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍʏ Oᴡɴᴇʀ​ 🍷</b>\n\n<b>@MH_Manager_04bot 🍷</b>")
         await asyncio.sleep(15)
         await k.delete()
         return
@@ -715,13 +715,13 @@ async def advantage_spell_chok(msg):
                 movielist += [movie.get('title') for movie in imdb_s]
     if movielist:
         one_button = InlineKeyboardMarkup([[InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍʏ Oᴡɴᴇʀ​ 😎", url="https://t.me/MH_Manager_04bot")]])
-        k = await msg.reply_photo(photo="https://telegra.ph/file/90774d8c83299d11b2199.jpg", caption="<b>𝚂𝚘𝚛𝚛𝚢, 𝙽𝚘 𝙼𝚘𝚟𝚒𝚎𝚜/𝚂𝚎𝚛𝚒𝚎𝚜 𝚁𝚎𝚕𝚊𝚝𝚎𝚍 𝚝𝚘 𝚝𝚑𝚎 𝙶𝚒𝚟𝚎𝚗 𝚆𝚘𝚛𝚍 𝚆𝚊𝚜 𝙵𝚘𝚞𝚗𝚍​ 🥺</b>\n\n<b>𝙿𝚘𝚜𝚜𝚒𝚋𝚕𝚎 𝙲𝚊𝚞𝚜𝚎𝚜 : 🤔</b>\n\n<b>🔷 Not Released Yet\n🔶 Incorrect Spelling\n🔷 Not Uploaded By Owner\n\n<b>Cᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍʏ Oᴡɴᴇʀ​ 🍷</b>", reply_markup = one_button)
+        k = await msg.reply_photo(photo="https://telegra.ph/file/90774d8c83299d11b2199.jpg", caption="<b>𝚂𝚘𝚛𝚛𝚢, 𝙽𝚘 𝙼𝚘𝚟𝚒𝚎𝚜/𝚂𝚎𝚛𝚒𝚎𝚜 𝚁𝚎𝚕𝚊𝚝𝚎𝚍 𝚝𝚘 𝚝𝚑𝚎 𝙶𝚒𝚟𝚎𝚗 𝚆𝚘𝚛𝚍 𝚆𝚊𝚜 𝙵𝚘𝚞𝚗𝚍​ 🥺</b>\n\n<b>𝙿𝚘𝚜𝚜𝚒𝚋𝚕𝚎 𝙲𝚊𝚞𝚜𝚎𝚜 : 🤔</b>\n\n<b>🔷 Not Released Yet</b>\n<b>🔶 Incorrect Spelling</b>\n<b>🔷 Not Uploaded By Owner</b>\n\n<b>Cᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍʏ Oᴡɴᴇʀ​ 🍷</b>", reply_markup = one_button)
         await asyncio.sleep(15)
         await k.delete()
         return
     if not movielist:
         one_button = InlineKeyboardMarkup([[InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍʏ Oᴡɴᴇʀ​ 😎", url="https://t.me/MH_Manager_04bot")]])
-        k = await msg.reply_photo(photo="https://telegra.ph/file/90774d8c83299d11b2199.jpg", caption="<b>𝚂𝚘𝚛𝚛𝚢, 𝙽𝚘 𝙼𝚘𝚟𝚒𝚎𝚜/𝚂𝚎𝚛𝚒𝚎𝚜 𝚁𝚎𝚕𝚊𝚝𝚎𝚍 𝚝𝚘 𝚝𝚑𝚎 𝙶𝚒𝚟𝚎𝚗 𝚆𝚘𝚛𝚍 𝚆𝚊𝚜 𝙵𝚘𝚞𝚗𝚍​ 🥺</b>\n\n<b>𝙿𝚘𝚜𝚜𝚒𝚋𝚕𝚎 𝙲𝚊𝚞𝚜𝚎𝚜 : 🤔</b>\n\n<b>🔷 Not Released Yet\n🔶 Incorrect Spelling\n🔷 Not Uploaded By Owner\n\n<b>Cᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍʏ Oᴡɴᴇʀ​ 🍷</b>", reply_markup = one_button)
+        k = await msg.reply_photo(photo="https://telegra.ph/file/90774d8c83299d11b2199.jpg", caption="<b>𝚂𝚘𝚛𝚛𝚢, 𝙽𝚘 𝙼𝚘𝚟𝚒𝚎𝚜/𝚂𝚎𝚛𝚒𝚎𝚜 𝚁𝚎𝚕𝚊𝚝𝚎𝚍 𝚝𝚘 𝚝𝚑𝚎 𝙶𝚒𝚟𝚎𝚗 𝚆𝚘𝚛𝚍 𝚆𝚊𝚜 𝙵𝚘𝚞𝚗𝚍​ 🥺</b>\n\n<b>𝙿𝚘𝚜𝚜𝚒𝚋𝚕𝚎 𝙲𝚊𝚞𝚜𝚎𝚜 : 🤔</b>\n\n<b>🔷 Not Released Yet</b>\n<b>🔶 Incorrect Spelling</b>\n<b>🔷 Not Uploaded By Owner</b>\n\n<b>Cᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍʏ Oᴡɴᴇʀ​ 🍷</b>", reply_markup = one_button)
         await asyncio.sleep(15)
         await k.delete()
         return
